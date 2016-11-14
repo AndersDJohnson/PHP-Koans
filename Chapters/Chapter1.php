@@ -130,6 +130,8 @@ class Chapter1 extends Chapter
     {
         // CODE HERE
 
+        define('SAMPLE_CONSTANT', 'testing');
+
         // DO NOT EDIT BELOW
         if (SAMPLE_CONSTANT !== 'testing') {
             throw new \Exception('Constants SAMPLE_CONSTANT must equal \'testing\'');
