@@ -87,6 +87,8 @@ class Chapter3 extends Chapter
     {
         // CODE HERE
 
+        $valueTwo = $valueOne[2];
+
         // DO NOT EDIT BELOW
         return $valueTwo;
     }
