@@ -114,6 +114,8 @@ class Chapter1 extends Chapter
     {
         // CODE HERE
 
+        $copiedValue = $alreadySet;
+
         // DO NOT EDIT BELOW
         return $copiedValue;
     }
