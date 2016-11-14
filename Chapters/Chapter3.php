@@ -36,6 +36,8 @@ class Chapter3 extends Chapter
     {
         // CODE HERE
 
+        $valueTwo = sprintf($valueOne, 'Susan');
+
         // DO NOT EDIT BELOW
         return $valueTwo;
     }
