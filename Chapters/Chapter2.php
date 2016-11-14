@@ -19,6 +19,8 @@ class Chapter2 extends Chapter
     {
         // CODE HERE
 
+        $sum = $valueOne + $valueTwo;
+
         // DO NOT EDIT BELOW
         return $sum;
     }
