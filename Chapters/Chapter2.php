@@ -176,6 +176,13 @@ class Chapter2 extends Chapter
                 if ($result[1] != 28) {
                     throw new \Exception('$valueTwo is not rounded down to the nearest whole number');
                 }
+                $result = $this->roundingUpAndDown(22.52, 28.19);
+                if ($result[0] != 23) {
+                    throw new \Exception('$valueOne is not rounded up to the nearest whole number');
+                }
+                if ($result[1] != 28) {
+                    throw new \Exception('$valueTwo is not rounded down to the nearest whole number');
+                }
             },
             'incrementAndDecrement' => function() {
                 $result = $this->incrementAndDecrement(61, 34);
