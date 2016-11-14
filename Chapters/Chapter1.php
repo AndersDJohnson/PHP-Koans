@@ -18,6 +18,8 @@ class Chapter1 extends Chapter
     {
         // CODE HERE
 
+        $anyVariable = 1;
+
         // DO NOT EDIT BELOW
         return $anyVariable;
     }
