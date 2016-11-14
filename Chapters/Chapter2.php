@@ -122,6 +122,9 @@ class Chapter2 extends Chapter
     {
         // CODE HERE
 
+        $valueOne = ceil($valueOne);
+        $valueTwo = floor($valueTwo);
+
         // DO NOT EDIT BELOW
         return [$valueOne, $valueTwo];
     }
