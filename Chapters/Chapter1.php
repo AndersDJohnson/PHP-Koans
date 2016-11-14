@@ -82,6 +82,8 @@ class Chapter1 extends Chapter
     {
         // CODE HERE
 
+        $shouldBeNull = null;
+
         // DO NOT EDIT BELOW
         return $shouldBeNull;
     }
