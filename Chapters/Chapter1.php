@@ -34,6 +34,8 @@ class Chapter1 extends Chapter
     {
         // CODE HERE
 
+        $shouldBeAnInt = 1;
+
         // DO NOT EDIT BELOW
         return $shouldBeAnInt;
     }
