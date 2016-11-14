@@ -139,6 +139,9 @@ class Chapter2 extends Chapter
     {
         // CODE HERE
 
+        $valueOne++;
+        $valueTwo--;
+
         // DO NOT EDIT BELOW
         return [$valueOne, $valueTwo];
     }
