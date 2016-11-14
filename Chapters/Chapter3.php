@@ -106,6 +106,10 @@ class Chapter3 extends Chapter
     {
         // CODE HERE
 
+        $partOne = substr($valueOne, 0, 3);
+        $partTwo = substr($valueOne, 4, 5);
+        $partThree = substr($valueOne, -2);
+
         // DO NOT EDIT BELOW
         return [$partOne, $partTwo, $partThree];
     }
