@@ -66,6 +66,8 @@ class Chapter1 extends Chapter
     {
         // CODE HERE
 
+        $shouldBeABoolean = true;
+
         // DO NOT EDIT BELOW
         return $shouldBeABoolean;
     }
