@@ -127,6 +127,10 @@ class Chapter3 extends Chapter
     {
         // CODE HERE
 
+        $allLower = strtolower($valueOne);
+        $allUpper = strtoupper($valueOne);
+        $firstUpper = ucfirst($valueOne);
+
         // DO NOT EDIT BELOW
         return [$allLower, $allUpper, $firstUpper];
     }
