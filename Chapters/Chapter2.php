@@ -54,6 +54,8 @@ class Chapter2 extends Chapter
     {
         // CODE HERE
 
+        $fourTimes = $valueOne * 4;
+
         // DO NOT EDIT BELOW
         return $fourTimes;
     }
