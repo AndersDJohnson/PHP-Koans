@@ -148,6 +148,8 @@ class Chapter3 extends Chapter
     {
         // CODE HERE
 
+        $foundLocation = strpos($valueOne, 'mountain');
+
         // DO NOT EDIT BELOW
         return $foundLocation;
     }
