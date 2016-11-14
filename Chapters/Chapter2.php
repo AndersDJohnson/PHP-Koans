@@ -104,6 +104,9 @@ class Chapter2 extends Chapter
     {
         // CODE HERE
 
+        $valueOne = round($valueOne, 0);
+        $valueTwo = round($valueTwo, 2);
+
         // DO NOT EDIT BELOW
         return [$valueOne, $valueTwo];
     }
