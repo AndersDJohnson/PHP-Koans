@@ -50,6 +50,8 @@ class Chapter1 extends Chapter
     {
         // CODE HERE
 
+        $shouldBeAFloat = 1.0;
+
         // DO NOT EDIT BELOW
         return $shouldBeAFloat;
     }
