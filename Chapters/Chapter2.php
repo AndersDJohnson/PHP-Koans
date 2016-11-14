@@ -70,6 +70,8 @@ class Chapter2 extends Chapter
     {
         // CODE HERE
 
+        $oneFourth = $valueOne / 4;
+
         // DO NOT EDIT BELOW
         return $oneFourth;
     }
