@@ -37,6 +37,8 @@ class Chapter2 extends Chapter
     {
         // CODE HERE
 
+        $difference = $valueOne - $valueTwo;
+
         // DO NOT EDIT BELOW
         return $difference;
     }
