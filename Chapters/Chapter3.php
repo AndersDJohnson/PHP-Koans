@@ -53,6 +53,8 @@ class Chapter3 extends Chapter
     {
         // CODE HERE
 
+        $valueTwo = str_replace('relaxing', 'educational', $valueOne);
+
         // DO NOTE EDIT BELOW
         return $valueTwo;
     }
