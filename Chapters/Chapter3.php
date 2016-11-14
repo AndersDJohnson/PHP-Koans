@@ -70,6 +70,8 @@ class Chapter3 extends Chapter
     {
         // CODE HERE
 
+        $valueTwo = strlen($valueOne);
+
         // DO NOT EDIT BELOW
         return $valueTwo;
     }
