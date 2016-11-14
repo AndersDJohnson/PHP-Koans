@@ -98,6 +98,8 @@ class Chapter1 extends Chapter
     {
         // CODE HERE
 
+        $becomesABoolean = (boolean) $becomesABoolean;
+
         // DO NOT EDIT BELOW
         return $becomesABoolean;
     }
