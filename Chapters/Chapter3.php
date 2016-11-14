@@ -19,6 +19,8 @@ class Chapter3 extends Chapter
     {
         // CODE HERE
 
+        $valueThree = $valueOne . $valueTwo;
+
         // DO NOT EDIT BELOW
         return $valueThree;
     }
